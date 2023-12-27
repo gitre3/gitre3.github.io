@@ -1,10 +1,57 @@
 <!DOCTYPE html>
 <html>
-<p style="background-image: url('bg.png');"></p>
+<head>
+    <title>trees gitcrib</title>
+    <style>
+        body {
+            background: url('bg.png') repeat;
+            color: #FFFF00;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        marquee {
+            color: #FF00FF;
+            font-size: 24px;
+        }
+        .flashing-text {
+            color: lime;
+            font-size: 30px;
+            text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
+            animation: blink 1s linear infinite;
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .centered {
+            text-align: center;
+            margin: 20px;
+            size: 200%;
+        }
+        .fire-row {
+            display: flex;
+            justify-content: center;
+            margin: 5px 0;
+        }
+        .fire-row img {
+            height: 50px; /* Adjust height as needed */
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>sup.</p>
+    <marquee>Welcome internetzzz!</marquee>
+    <div class="centered">
+        <h1 class="flashing-text"><sup></sup> trees git crib</h1>
+    </div>
+    <div class="fire-row">
+        <img src="fire.gif" alt="Fire GIF">
+        <img src="fire.gif" alt="Fire GIF">
+        <img src="fire.gif" alt="Fire GIF">
+        <img src="fire.gif" alt="Fire GIF">
+        <img src="fire.gif" alt="Fire GIF">
+
+        
+        <!-- Add more images as needed to fill the width -->
+    </div>
 </body>
 </html>
-
-
